@@ -1,0 +1,138 @@
+{
+  "best_model": "Linear SVM",
+  "best_params": "{'clf__C': 0.1}",
+  "cv_accuracy_mean": 0.9694444444444446,
+  "cv_accuracy_std": 0.04015786748555824,
+  "cv_f1_macro_mean": 0.9689594356261023,
+  "cv_f1_macro_std": 0.04079529395358296,
+  "train_vs_test_gap": 0.004629629629629206,
+  "test_accuracy": 0.9333333333333333,
+  "test_f1_macro": 0.9333333333333332,
+  "confusion_matrix": [
+    [
+      10,
+      0,
+      0
+    ],
+    [
+      0,
+      9,
+      1
+    ],
+    [
+      0,
+      1,
+      9
+    ]
+  ],
+  "all_models": [
+    {
+      "model": "Logistic Regression",
+      "best_params": "{'clf__C': 10.0, 'clf__solver': 'lbfgs'}",
+      "cv_accuracy_mean": 0.9611111111111111,
+      "cv_accuracy_std": 0.05583264233956051,
+      "cv_f1_macro_mean": 0.9604938271604938,
+      "cv_f1_macro_std": 0.05671887475764877,
+      "train_accuracy_mean": 0.9780864197530863,
+      "train_accuracy_std": 0.006087371272628405,
+      "train_f1_macro_mean": 0.9780837400523552,
+      "train_vs_test_gap": 0.016975308641975162
+    },
+    {
+      "model": "Linear SVM",
+      "best_params": "{'clf__C': 0.1}",
+      "cv_accuracy_mean": 0.9694444444444446,
+      "cv_accuracy_std": 0.04015786748555824,
+      "cv_f1_macro_mean": 0.9689594356261023,
+      "cv_f1_macro_std": 0.04079529395358296,
+      "train_accuracy_mean": 0.9740740740740738,
+      "train_accuracy_std": 0.005014838521380245,
+      "train_f1_macro_mean": 0.9740380562755772,
+      "train_vs_test_gap": 0.004629629629629206
+    },
+    {
+      "model": "RBF SVM",
+      "best_params": "{'clf__C': 1.0, 'clf__gamma': 0.1}",
+      "cv_accuracy_mean": 0.9611111111111111,
+      "cv_accuracy_std": 0.046811943184313115,
+      "cv_f1_macro_mean": 0.9605820105820105,
+      "cv_f1_macro_std": 0.04731605545571682,
+      "train_accuracy_mean": 0.9777777777777776,
+      "train_accuracy_std": 0.007407407407407408,
+      "train_f1_macro_mean": 0.9777657353677339,
+      "train_vs_test_gap": 0.016666666666666496
+    },
+    {
+      "model": "Polynomial SVM",
+      "best_params": "{'clf__C': 10.0, 'clf__degree': 3, 'clf__gamma': 'scale'}",
+      "cv_accuracy_mean": 0.9527777777777778,
+      "cv_accuracy_std": 0.06340395672507404,
+      "cv_f1_macro_mean": 0.9518342151675484,
+      "cv_f1_macro_std": 0.06479476108201639,
+      "train_accuracy_mean": 0.9820987654320987,
+      "train_accuracy_std": 0.006733772910268948,
+      "train_f1_macro_mean": 0.9820907789764559,
+      "train_vs_test_gap": 0.029320987654320896
+    },
+    {
+      "model": "KNN",
+      "best_params": "{'clf__metric': 'euclidean', 'clf__n_neighbors': 3, 'clf__weights': 'uniform'}",
+      "cv_accuracy_mean": 0.9527777777777777,
+      "cv_accuracy_std": 0.055624956651391076,
+      "cv_f1_macro_mean": 0.9522927689594355,
+      "cv_f1_macro_std": 0.055942564560711006,
+      "train_accuracy_mean": 0.9629629629629626,
+      "train_accuracy_std": 0.007560153527108572,
+      "train_f1_macro_mean": 0.9629269564932531,
+      "train_vs_test_gap": 0.010185185185184853
+    },
+    {
+      "model": "Decision Tree",
+      "best_params": "{'clf__criterion': 'gini', 'clf__max_depth': None, 'clf__min_samples_split': 5}",
+      "cv_accuracy_mean": 0.961111111111111,
+      "cv_accuracy_std": 0.046811943184313115,
+      "cv_f1_macro_mean": 0.9602116402116402,
+      "cv_f1_macro_std": 0.04834299779138787,
+      "train_accuracy_mean": 0.9842592592592592,
+      "train_accuracy_std": 0.005928818738363734,
+      "train_f1_macro_mean": 0.9842495472696771,
+      "train_vs_test_gap": 0.02314814814814814
+    },
+    {
+      "model": "Random Forest",
+      "best_params": "{'clf__max_depth': None, 'clf__min_samples_split': 5, 'clf__n_estimators': 50}",
+      "cv_accuracy_mean": 0.9583333333333334,
+      "cv_accuracy_std": 0.04166666666666668,
+      "cv_f1_macro_mean": 0.9576719576719576,
+      "cv_f1_macro_std": 0.04232804232804232,
+      "train_accuracy_mean": 0.9864197530864196,
+      "train_accuracy_std": 0.007065137742135536,
+      "train_f1_macro_mean": 0.9864154639098366,
+      "train_vs_test_gap": 0.028086419753086234
+    },
+    {
+      "model": "Gradient Boosting",
+      "best_params": "{'clf__learning_rate': 0.01, 'clf__max_depth': 3, 'clf__n_estimators': 50}",
+      "cv_accuracy_mean": 0.95,
+      "cv_accuracy_std": 0.046147910349544866,
+      "cv_f1_macro_mean": 0.9489241622574955,
+      "cv_f1_macro_std": 0.04761272412126004,
+      "train_accuracy_mean": 0.9947530864197529,
+      "train_accuracy_std": 0.0045882928232464735,
+      "train_f1_macro_mean": 0.9947520740883661,
+      "train_vs_test_gap": 0.04475308641975295
+    },
+    {
+      "model": "MLP",
+      "best_params": "{'clf__activation': 'tanh', 'clf__alpha': 0.0001, 'clf__hidden_layer_sizes': (50,)}",
+      "cv_accuracy_mean": 0.8472222222222222,
+      "cv_accuracy_std": 0.12561576727327792,
+      "cv_f1_macro_mean": 0.8458865825532491,
+      "cv_f1_macro_std": 0.12663361960065747,
+      "train_accuracy_mean": 0.8493827160493829,
+      "train_accuracy_std": 0.052592447690057144,
+      "train_f1_macro_mean": 0.8507486914106261,
+      "train_vs_test_gap": 0.002160493827160659
+    }
+  ]
+}
