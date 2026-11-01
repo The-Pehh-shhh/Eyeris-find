@@ -34,8 +34,7 @@ def get_model_configs():
             ("scaler", StandardScaler()),
             ("clf", LogisticRegression(
                 max_iter=1000,
-                random_state=42,
-                multi_class="multinomial"
+                random_state=42
             ))
         ]),
         {
